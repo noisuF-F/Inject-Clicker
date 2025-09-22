@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Dependencies\include\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\include\ImGui\imgui_impl_win32.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{d5c61b2e-fc4a-4f14-9689-1376e19ca7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\ImGui">
+      <UniqueIdentifier>{4a96feb9-c21a-48c4-abe6-93c8405d4ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{db35df7d-97f2-45a5-ad23-88cb3816d874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{1a2b9cf3-1b07-4ef6-abad-9589822a24e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dependencies\include\ImGui\imconfig.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\imgui.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\imgui_impl_opengl3.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\imgui_impl_win32.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\imgui_internal.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\imgui_stdlib.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\imstb_rectpack.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\imstb_textedit.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\imstb_truetype.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\imgui_impl_opengl3_loader.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\MinHook.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
